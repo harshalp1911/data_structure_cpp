@@ -22,7 +22,7 @@ void printArr(int arr [], int n){               // PRINT THE ARRAY FUNCTION
 }
 
 int main (){                                    // MAIN FUCNTION
-    int arr[6] = {10,1,7,6,14,9};
+    int arr[6] = {10,1,7,6,14,90};
     bubbleSort(arr, 6);
     cout<<"array after sorting is"<<endl;
     printArr(arr, 6);
